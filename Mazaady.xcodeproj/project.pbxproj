@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A89313BEDB5182861358760 /* Pods_Mazaady.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B5E45D8D6DD654E183FDC1 /* Pods_Mazaady.framework */; };
 		7067566E296528E100454CB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067566D296528E100454CB1 /* AppDelegate.swift */; };
-		70675670296528E100454CB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067566F296528E100454CB1 /* SceneDelegate.swift */; };
-		70675672296528E100454CB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70675671296528E100454CB1 /* ViewController.swift */; };
+		70675672296528E100454CB1 /* PropertyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70675671296528E100454CB1 /* PropertyVC.swift */; };
 		70675675296528E100454CB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70675673296528E100454CB1 /* Main.storyboard */; };
 		70675677296528E400454CB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70675676296528E400454CB1 /* Assets.xcassets */; };
 		7067567A296528E400454CB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70675678296528E400454CB1 /* LaunchScreen.storyboard */; };
 		70675685296528E400454CB1 /* MazaadyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70675684296528E400454CB1 /* MazaadyTests.swift */; };
 		7067568F296528E400454CB1 /* MazaadyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7067568E296528E400454CB1 /* MazaadyUITests.swift */; };
 		70675691296528E400454CB1 /* MazaadyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70675690296528E400454CB1 /* MazaadyUITestsLaunchTests.swift */; };
+		706756A5296534BF00454CB1 /* imageViewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756A4296534BF00454CB1 /* imageViewEX.swift */; };
+		706756AB296534E900454CB1 /* viewEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756AA296534E900454CB1 /* viewEX.swift */; };
+		706756AD296534F600454CB1 /* buttonEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756AC296534F600454CB1 /* buttonEX.swift */; };
+		706756B02965361400454CB1 /* PickerViewSelectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756AF2965361400454CB1 /* PickerViewSelectedVC.swift */; };
+		706756B22965408300454CB1 /* PropertyPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756B12965408300454CB1 /* PropertyPresenter.swift */; };
+		706756B9296540AE00454CB1 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756B4296540AE00454CB1 /* APIServices.swift */; };
+		706756BC296540AE00454CB1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756B7296540AE00454CB1 /* API.swift */; };
+		706756BD296540AE00454CB1 /* API URls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756B8296540AE00454CB1 /* API URls.swift */; };
+		706756BF296541B800454CB1 /* Property Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756BE296541B800454CB1 /* Property Model.swift */; };
+		706756C32965E7C500454CB1 /* MazadDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756C22965E7C500454CB1 /* MazadDetailsVC.swift */; };
+		706756C72965E82E00454CB1 /* BiddersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756C52965E82E00454CB1 /* BiddersCell.swift */; };
+		706756C82965E82E00454CB1 /* BiddersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706756C62965E82E00454CB1 /* BiddersCell.xib */; };
+		706756CB2965EAEC00454CB1 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706756C92965EAEC00454CB1 /* ProductCell.swift */; };
+		706756CC2965EAEC00454CB1 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 706756CA2965EAEC00454CB1 /* ProductCell.xib */; };
+		70B4C75E296602990017CA79 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B4C75D296602990017CA79 /* SliderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19B5E45D8D6DD654E183FDC1 /* Pods_Mazaady.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mazaady.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D95F9273614EC9FBA1CC9C /* Pods-Mazaady.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady.release.xcconfig"; path = "Target Support Files/Pods-Mazaady/Pods-Mazaady.release.xcconfig"; sourceTree = "<group>"; };
+		2E079D59EE8AF1657FC02939 /* Pods-Mazaady.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mazaady.debug.xcconfig"; path = "Target Support Files/Pods-Mazaady/Pods-Mazaady.debug.xcconfig"; sourceTree = "<group>"; };
 		7067566A296528E100454CB1 /* Mazaady.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mazaady.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7067566D296528E100454CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7067566F296528E100454CB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70675671296528E100454CB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70675671296528E100454CB1 /* PropertyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyVC.swift; sourceTree = "<group>"; };
 		70675674296528E100454CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70675676296528E400454CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70675679296528E400454CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +66,21 @@
 		7067568A296528E400454CB1 /* MazaadyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazaadyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7067568E296528E400454CB1 /* MazaadyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazaadyUITests.swift; sourceTree = "<group>"; };
 		70675690296528E400454CB1 /* MazaadyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazaadyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		706756A4296534BF00454CB1 /* imageViewEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewEX.swift; sourceTree = "<group>"; };
+		706756AA296534E900454CB1 /* viewEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = viewEX.swift; sourceTree = "<group>"; };
+		706756AC296534F600454CB1 /* buttonEX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonEX.swift; sourceTree = "<group>"; };
+		706756AF2965361400454CB1 /* PickerViewSelectedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewSelectedVC.swift; sourceTree = "<group>"; };
+		706756B12965408300454CB1 /* PropertyPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyPresenter.swift; sourceTree = "<group>"; };
+		706756B4296540AE00454CB1 /* APIServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		706756B7296540AE00454CB1 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		706756B8296540AE00454CB1 /* API URls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "API URls.swift"; sourceTree = "<group>"; };
+		706756BE296541B800454CB1 /* Property Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Property Model.swift"; sourceTree = "<group>"; };
+		706756C22965E7C500454CB1 /* MazadDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazadDetailsVC.swift; sourceTree = "<group>"; };
+		706756C52965E82E00454CB1 /* BiddersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddersCell.swift; sourceTree = "<group>"; };
+		706756C62965E82E00454CB1 /* BiddersCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BiddersCell.xib; sourceTree = "<group>"; };
+		706756C92965EAEC00454CB1 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		706756CA2965EAEC00454CB1 /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
+		70B4C75D296602990017CA79 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A89313BEDB5182861358760 /* Pods_Mazaady.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,8 @@
 				70675683296528E400454CB1 /* MazaadyTests */,
 				7067568D296528E400454CB1 /* MazaadyUITests */,
 				7067566B296528E100454CB1 /* Products */,
+				FA04EC32E517C052B0D943C7 /* Pods */,
+				EDC7DFEE13CF1E62E019E7F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +134,11 @@
 		7067566C296528E100454CB1 /* Mazaady */ = {
 			isa = PBXGroup;
 			children = (
-				7067566D296528E100454CB1 /* AppDelegate.swift */,
-				7067566F296528E100454CB1 /* SceneDelegate.swift */,
-				70675671296528E100454CB1 /* ViewController.swift */,
-				70675673296528E100454CB1 /* Main.storyboard */,
-				70675676296528E400454CB1 /* Assets.xcassets */,
-				70675678296528E400454CB1 /* LaunchScreen.storyboard */,
+				706756B3296540AE00454CB1 /* Net Work */,
+				7067569F2965313D00454CB1 /* UI */,
+				7067569E2965311100454CB1 /* Scence */,
+				7067569D2965310100454CB1 /* App Support */,
+				706756A32965349000454CB1 /* Extention */,
 				7067567B296528E400454CB1 /* Info.plist */,
 			);
 			path = Mazaady;
@@ -127,6 +161,134 @@
 			path = MazaadyUITests;
 			sourceTree = "<group>";
 		};
+		7067569D2965310100454CB1 /* App Support */ = {
+			isa = PBXGroup;
+			children = (
+				7067566D296528E100454CB1 /* AppDelegate.swift */,
+				70675676296528E400454CB1 /* Assets.xcassets */,
+				70675678296528E400454CB1 /* LaunchScreen.storyboard */,
+			);
+			path = "App Support";
+			sourceTree = "<group>";
+		};
+		7067569E2965311100454CB1 /* Scence */ = {
+			isa = PBXGroup;
+			children = (
+				706756C12965E7A900454CB1 /* Mazaad Details */,
+				706756C02965E78600454CB1 /* Filter */,
+			);
+			path = Scence;
+			sourceTree = "<group>";
+		};
+		7067569F2965313D00454CB1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				706756A12965315000454CB1 /* XIB */,
+				706756A02965314800454CB1 /* StoryBoard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		706756A02965314800454CB1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				70675673296528E100454CB1 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		706756A12965315000454CB1 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				706756C62965E82E00454CB1 /* BiddersCell.xib */,
+				706756CA2965EAEC00454CB1 /* ProductCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		706756A22965315E00454CB1 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				70675671296528E100454CB1 /* PropertyVC.swift */,
+				706756B12965408300454CB1 /* PropertyPresenter.swift */,
+				706756BE296541B800454CB1 /* Property Model.swift */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		706756A32965349000454CB1 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				706756A4296534BF00454CB1 /* imageViewEX.swift */,
+				706756AA296534E900454CB1 /* viewEX.swift */,
+				706756AC296534F600454CB1 /* buttonEX.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		706756AE296535FF00454CB1 /* Picker View */ = {
+			isa = PBXGroup;
+			children = (
+				706756AF2965361400454CB1 /* PickerViewSelectedVC.swift */,
+			);
+			path = "Picker View";
+			sourceTree = "<group>";
+		};
+		706756B3296540AE00454CB1 /* Net Work */ = {
+			isa = PBXGroup;
+			children = (
+				706756B4296540AE00454CB1 /* APIServices.swift */,
+				706756B7296540AE00454CB1 /* API.swift */,
+				706756B8296540AE00454CB1 /* API URls.swift */,
+			);
+			path = "Net Work";
+			sourceTree = "<group>";
+		};
+		706756C02965E78600454CB1 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				706756AE296535FF00454CB1 /* Picker View */,
+				706756A22965315E00454CB1 /* Property */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		706756C12965E7A900454CB1 /* Mazaad Details */ = {
+			isa = PBXGroup;
+			children = (
+				706756C42965E7C900454CB1 /* Cell */,
+				706756C22965E7C500454CB1 /* MazadDetailsVC.swift */,
+			);
+			path = "Mazaad Details";
+			sourceTree = "<group>";
+		};
+		706756C42965E7C900454CB1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				706756C52965E82E00454CB1 /* BiddersCell.swift */,
+				706756C92965EAEC00454CB1 /* ProductCell.swift */,
+				70B4C75D296602990017CA79 /* SliderCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EDC7DFEE13CF1E62E019E7F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19B5E45D8D6DD654E183FDC1 /* Pods_Mazaady.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA04EC32E517C052B0D943C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E079D59EE8AF1657FC02939 /* Pods-Mazaady.debug.xcconfig */,
+				23D95F9273614EC9FBA1CC9C /* Pods-Mazaady.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70675694296528E400454CB1 /* Build configuration list for PBXNativeTarget "Mazaady" */;
 			buildPhases = (
+				2158B18AA11862ED8EBEF488 /* [CP] Check Pods Manifest.lock */,
 				70675666296528E100454CB1 /* Sources */,
 				70675667296528E100454CB1 /* Frameworks */,
 				70675668296528E100454CB1 /* Resources */,
+				B60247254D7AD4D1F5009334 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +396,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7067567A296528E400454CB1 /* LaunchScreen.storyboard in Resources */,
+				706756C82965E82E00454CB1 /* BiddersCell.xib in Resources */,
+				706756CC2965EAEC00454CB1 /* ProductCell.xib in Resources */,
 				70675677296528E400454CB1 /* Assets.xcassets in Resources */,
 				70675675296528E100454CB1 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +419,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2158B18AA11862ED8EBEF488 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mazaady-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60247254D7AD4D1F5009334 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazaady/Pods-Mazaady-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mazaady/Pods-Mazaady-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mazaady/Pods-Mazaady-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70675666296528E100454CB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70675672296528E100454CB1 /* ViewController.swift in Sources */,
+				706756BF296541B800454CB1 /* Property Model.swift in Sources */,
+				70B4C75E296602990017CA79 /* SliderCell.swift in Sources */,
+				706756C72965E82E00454CB1 /* BiddersCell.swift in Sources */,
+				706756BC296540AE00454CB1 /* API.swift in Sources */,
+				70675672296528E100454CB1 /* PropertyVC.swift in Sources */,
+				706756C32965E7C500454CB1 /* MazadDetailsVC.swift in Sources */,
+				706756CB2965EAEC00454CB1 /* ProductCell.swift in Sources */,
+				706756A5296534BF00454CB1 /* imageViewEX.swift in Sources */,
+				706756B9296540AE00454CB1 /* APIServices.swift in Sources */,
+				706756BD296540AE00454CB1 /* API URls.swift in Sources */,
+				706756B02965361400454CB1 /* PickerViewSelectedVC.swift in Sources */,
+				706756AB296534E900454CB1 /* viewEX.swift in Sources */,
 				7067566E296528E100454CB1 /* AppDelegate.swift in Sources */,
-				70675670296528E100454CB1 /* SceneDelegate.swift in Sources */,
+				706756AD296534F600454CB1 /* buttonEX.swift in Sources */,
+				706756B22965408300454CB1 /* PropertyPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +652,7 @@
 		};
 		70675695296528E400454CB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E079D59EE8AF1657FC02939 /* Pods-Mazaady.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +681,7 @@
 		};
 		70675696296528E400454CB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D95F9273614EC9FBA1CC9C /* Pods-Mazaady.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

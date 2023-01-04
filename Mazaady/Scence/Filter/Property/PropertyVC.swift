@@ -67,6 +67,10 @@ class PropertyVC: UIViewController{
         type = .category
         presenter?.getAllCategory()
     }
+    @IBAction func submitBTN(_ sender: Any) {
+        let details = self.storyboard?.instantiateViewController(withIdentifier: "MazadDetailsVC") as! MazadDetailsVC
+        self.present(details, animated: true, completion: nil)
+    }
     
     
     @IBAction func subCategoryBTN(_ sender: Any) {

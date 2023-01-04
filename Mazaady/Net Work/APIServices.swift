@@ -84,7 +84,6 @@ class API{
     @discardableResult
     func performRequest<T:Decodable>(url: String, method: HTTPMethod, parameters: Parameters?, headersType: httpHeadersType, fileUrlKey: [String], files:[Data], filesNames:[String], mimeTypes:[String], completion: @escaping (_ result:Result<T, AFError>,_ statusCode:Int?)->Void) -> DataRequest {
         
-        Indicator.shared.showProgressView()
         
         return AF.upload(multipartFormData: { (multipartFormData) in
 
@@ -103,7 +102,6 @@ class API{
         }, to: url, headers: getHeaders(type: headersType)).responseDecodable (decoder: JSONDecoder()){ (response: DataResponse<T, AFError>) in
 
             debugPrint(response)
-            Indicator.shared.hideProgressView()
             completion(response.result, response.response?.statusCode)
         }
     }

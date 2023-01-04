@@ -24,18 +24,12 @@ enum httpHeadersType{
  
  func getHeaders(type:httpHeadersType) -> HTTPHeaders?{
     var HttpHeaders = HTTPHeaders()
-    let User = UserModel.shared
-//     print("get_token" ,"Bearer  \(User.get_authToken()" )
+ //     print("get_token" ,"Bearer  \(User.get_authToken()" )
       if type == .langOnly{
-        HttpHeaders = [  "Content-Type": "application/json" ,
-                         "Locale": getLanguage(),
-                         "App":"client"]
+        HttpHeaders = [  "Content-Type": "application/json"  ]
 
     }else if type == .token{
-        HttpHeaders = ["Locale": getLanguage(),
-                       "Content-Type": "application/json",
-                       "Authorization": "Bearer \(User.get_authToken())",
-                       "App":"client"]
+        HttpHeaders = [ "Content-Type": "application/json" ]
      }
     
     return HttpHeaders

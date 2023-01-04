@@ -9,4 +9,5 @@ import UIKit
 
 class SliderCell: UICollectionViewCell {
     
+    @IBOutlet weak var sliderImage: UIImageView!
 }

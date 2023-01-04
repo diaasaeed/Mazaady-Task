@@ -9,15 +9,16 @@ import UIKit
 
 class BiddersCell: UITableViewCell {
 
+    @IBOutlet weak var userNameLable: UILabel!
+    @IBOutlet weak var imageUser: UIImageView!
+    @IBOutlet weak var numberLable: UILabel!
+    @IBOutlet weak var timerLable: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.selectionStyle  = .none
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
+  
     
 }
